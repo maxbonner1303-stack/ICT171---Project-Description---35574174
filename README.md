@@ -24,7 +24,7 @@ stay on top of cancellations before costs add up.
 
 ## Documentation
 - [1. VM Setup](docs/01-vm-setup.md)
-- [2. Web Server Setup](docs/02-web-server.md)
+- [2. Web Server Setup](docs/doc/02-web-server.md)
 - [3. Domain & DNS](docs/03-domain-dns.md)
 - [4. SSL/TLS](docs/04-ssl.md)
 - [5. Script](docs/05-script.md)
