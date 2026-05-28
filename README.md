@@ -1,5 +1,5 @@
 # ICT171 Cloud Server Project
-**Student Name:** Max Bpmmer  
+**Student Name:** Max Bonner  
 **Student Number:** 35574174  
 **Live Site:** [subtrackr.online](http://subtrackr.online)  
 **Server IP:** 20.211.147.206
