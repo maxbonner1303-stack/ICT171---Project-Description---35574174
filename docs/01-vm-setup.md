@@ -4,9 +4,9 @@
 Microsoft Azure
 
 ## VM Specifications
-- OS: Ubuntu xx.xx LTS
-- Size: (e.g. Standard B1s)
-- Region: (e.g. Australia East)
+- OS: Ubuntu Linux LTS
+- Size: Standard D2s v3
+- Region: Australia East (Zone 1)
 
 ## Steps
 Create the VM in the Azure portal with the following settings...
