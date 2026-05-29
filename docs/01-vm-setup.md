@@ -5,7 +5,7 @@ Amazon Web Services (AWS) EC2
 
 ## VM Specifications
 - OS: Ubuntu 24.04 LTS
-- Instance Type: (e.g. t2.micro)
+- Instance Type: m4.4xlarge
 - Region: Asia Pacific (Sydney) ap-southeast-2
 
 ## Steps
