@@ -4,7 +4,7 @@
 **Live Site:** [subtrackr.online](http://subtrackr.online)  
 **Server IP:** 13.54.175.127
 
-**Video Explainer:** [Watch here] (https://www.youtube.com/watch?v=wapmY0Cz1ow)
+**Video Explainer:** [Watch here](https://www.youtube.com/watch?v=wapmY0Cz1ow)
 
 ## Project Overview
 This project is a personal subscription tracking service built and hosted on an AWS EC2 Virtual Machine. 
