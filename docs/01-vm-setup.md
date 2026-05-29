@@ -1,25 +1,34 @@
 # VM Setup
 
 ## Provider
-Microsoft Azure
+Amazon Web Services (AWS) EC2
 
 ## VM Specifications
-- OS: Ubuntu Linux LTS
-- Size: Standard D2s v3
-- Region: Australia East (Zone 1)
+- OS: Ubuntu 24.04 LTS
+- Instance Type: (e.g. t2.micro)
+- Region: Asia Pacific (Sydney) ap-southeast-2
 
 ## Steps
-Create the VM in the Azure portal with the following settings...
 
-Connect via SSH:
-This will give the virtual machine access to the website.
+### 1. Launch EC2 Instance
+- Log into AWS Console at https://aws.amazon.com
+- Navigate to EC2 → Instances → Launch Instance
+- Selected Ubuntu 24.04 LTS as the OS
+- Created a new key pair named `KeyKeyPairPair` and downloaded the `.pem` file
+- Configured Security Group to allow inbound traffic on port 80 (HTTP), 443 (HTTPS), and 22 (SSH)
+- Launched the instance
 
-ssh azureuser@20.211.147.206
+### 2. Allocate Elastic IP
+Assigned a static Elastic IP to ensure the server address does not change between restarts:
+- Navigate to EC2 → Elastic IPs → Allocate Elastic IP
+- Associate the Elastic IP with the running instance
 
+### 3. Connect via SSH
+```bash
+ssh -i "KeyKeyPairPair.pem" ubuntu@13.54.175.127
+```
 
-
-Update the system:
-This will update the virtual machine with all the latest updates.
-
+### 4. Update the System
+```bash
 sudo apt update && sudo apt upgrade -y
-
+```
