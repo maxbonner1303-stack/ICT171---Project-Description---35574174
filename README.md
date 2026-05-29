@@ -7,7 +7,7 @@
 **Video Explainer:**
 
 ## Project Overview
-This project is a personal subscription tracking service built and hosted on Microsoft Azure. 
+This project is a personal subscription tracking service built and hosted on an AWS EC2 Virtual Machine. 
 The idea came from a common problem: subscriptions pile up over time and people forget to cancel 
 them, leading to unnecessary spending. While enterprise-level tools exist for companies, very few 
 solutions exist for personal use.
