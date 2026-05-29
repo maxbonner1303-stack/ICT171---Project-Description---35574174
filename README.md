@@ -4,7 +4,7 @@
 **Live Site:** [subtrackr.online](http://subtrackr.online)  
 **Server IP:** 13.54.175.127
 
-**Video Explainer:** [Link to YouTube]()
+**Video Explainer:**
 
 ## Project Overview
 This project is a personal subscription tracking service built and hosted on Microsoft Azure. 
